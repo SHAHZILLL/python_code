@@ -1,9 +1,9 @@
 class Employee: 
     language = "Python" # This is a class attribute
-    salary = 1200000
+    payment = 1200000
 
     def getInfo(self):
-        print(f"The language is {self.language}. The salary is {self.salary}")
+        print(f"The language is {self.language}. The payment is {self.payment}")
 
     @staticmethod
     def greet():
